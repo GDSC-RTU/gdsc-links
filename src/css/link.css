@@ -1,0 +1,23 @@
+.link {
+  padding: 4px 2px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  display: flex;
+  height: 2rem;
+  min-width: 5rem;
+  max-width: 30rem;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(
+    87deg,
+    rgba(176, 230, 113, 1) 0%,
+    rgba(62, 190, 48, 1) 81%,
+    rgba(85, 156, 77, 1) 100%
+  );
+}
+.link > img {
+  height: 2rem;
+  object-fit: cover;
+}

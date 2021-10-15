@@ -1,0 +1,32 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 500px;
+  padding: 0 20px;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.intro_avatar {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  object-position: 0 24px;
+}
+.intro_name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.intro_description {
+  text-align: center;
+  font-size: 18px;
+}

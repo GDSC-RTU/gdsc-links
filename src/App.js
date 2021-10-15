@@ -12,7 +12,9 @@ function App() {
           srcset=""
           className="intro_avatar"
         />
-        <div className="intro_name">Hi there, We're Google Developers Club</div>
+        <div className="intro_name">
+          Hi there, We are Google Developers Club
+        </div>
         <div className="intro_description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
           vitae dolor recusandae laboriosam aliquam, magni, non fuga cupiditate

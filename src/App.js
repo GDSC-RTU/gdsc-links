@@ -5,15 +5,15 @@ import "./css/app.css";
 function App() {
   return (
     <div className="container">
+      
       <div className="intro">
         <img
           src="./assets/avatar.jpg"
           alt=""
-          srcset=""
           className="intro_avatar"
         />
         <div className="intro_name">
-          Hi there, We are Google Developers Club
+          Hi there, visitor!
         </div>
         <div className="intro_description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
@@ -22,6 +22,7 @@ function App() {
           assumenda deleniti maiores beatae?
         </div>
       </div>
+
       <div className="links">
         {links.map((link) => {
           return (
@@ -29,10 +30,12 @@ function App() {
               link={link.link}
               name={link.name}
               icon={`./assets/icons/${link.icon}`}
+              key={link.link}
             ></Link>
           );
         })}
       </div>
+    
     </div>
   );
 }

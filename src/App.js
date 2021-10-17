@@ -5,16 +5,9 @@ import "./css/app.css";
 function App() {
   return (
     <div className="container">
-      
       <div className="intro">
-        <img
-          src="./assets/avatar.jpg"
-          alt=""
-          className="intro_avatar"
-        />
-        <div className="intro_name">
-          Hi there, visitor!
-        </div>
+        <img src="./assets/avatar.jpg" alt="" className="intro_avatar" />
+        <div className="intro_name">Hi there, visitor!</div>
         <div className="intro_description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
           vitae dolor recusandae laboriosam aliquam, magni, non fuga cupiditate
@@ -31,11 +24,11 @@ function App() {
               name={link.name}
               icon={`./assets/icons/${link.icon}`}
               key={link.link}
+              color={link.color}
             ></Link>
           );
         })}
       </div>
-    
     </div>
   );
 }

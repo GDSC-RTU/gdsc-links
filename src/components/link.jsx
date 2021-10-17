@@ -2,7 +2,11 @@ import "./../css/link.css";
 
 function Link(data) {
   return (
-    <a href={data.link} className="link">
+    <a
+      href={data.link}
+      className="link"
+      style={{ background: `#${data.color}` }}
+    >
       <img src={data.icon} alt="" className="link_icon" />
       <div className="link_name">{data.name}</div>
       <div className="link_link">

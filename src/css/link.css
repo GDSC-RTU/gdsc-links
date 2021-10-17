@@ -10,14 +10,20 @@
   align-items: center;
   text-decoration: none;
   color: black;
-  background: linear-gradient( 87deg, rgba(176, 230, 113, 1) 0%, rgba(62, 190, 48, 1) 81%, rgba(85, 156, 77, 1) 100%);
+  background: #56dd47;
+  transition: all 0.2s ease-in-out;
+}
+.link:hover {
+  -webkit-box-shadow: inset 0 0 10px 6.5px #00000027;
+  -moz-box-shadow: inset 0 0 10px 6.5px #00000027;
+  box-shadow: inset 0 0 10px 6.5px #00000027;
 }
 
-.link_name{
+.link_name {
   font-weight: 600;
 }
 
-.link>img {
+.link > img {
   height: 2rem;
   object-fit: cover;
 }

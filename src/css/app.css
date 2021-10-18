@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@300&display=swap');
 body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 90px;
 }
 
 .container {
@@ -18,20 +21,62 @@ body {
 }
 
 .intro_avatar {
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  object-position: 0 24px;
+  height: 150px;
+  width: 150px;
+  object-position: 0 -19px;
 }
 
 .intro_name {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 2.3rem;
+  font-weight: 300;
   margin-bottom: 10px;
   text-align: center;
+  position: relative;
+  bottom: 20px;
+  left: 7px;
+  letter-spacing: 2.5px;
+  font-family: 'Andada Pro', serif;
 }
 
 .intro_description {
   text-align: center;
-  font-size: 18px;
+  font-family: "Poppins";
+  margin: 10px 0;
+  line-height: 40px;
+  position: relative;
+  bottom: 20px;
+  left: 5px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  padding-bottom: 40px;
+
+}
+
+.links{
+  position: relative;
+  bottom: 60px;
+}
+
+@media(max-width: 992px){
+  .intro_name {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+
+  .intro_description {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+
+  .intro_avatar{
+    height: 100px;
+    width: 100px;
+  }
+
+  body{
+    padding: 50px 6px;
+  }
 }

@@ -10,14 +10,9 @@ const links = [
     icon: "github.png",
   },
   {
-    name: "LinkedIn",
-    link: "https://linkedin.com/company/dsc-rtu",
-    icon: "linkedin.png",
-  },
-  {
-    name: "YouTube",
-    link: "https://www.youtube.com/channel/UC4HOuA2c08DZU12SIRGPgvg",
-    icon: "youtube.png",
+    name: "Instagram",
+    link: "https://www.instagram.com/gdsc_rtu/",
+    icon: "instagram.png",
   },
   {
     name: "Twitter",
@@ -25,9 +20,19 @@ const links = [
     icon: "twitter.png",
   },
   {
+    name: "LinkedIn",
+    link: "https://linkedin.com/company/dsc-rtu",
+    icon: "linkedin.png",
+  },
+  {
     name: "Discord",
     link: "https://discord.gg/u8mkFY82dA",
     icon: "discord.png",
+  },
+  {
+    name: "YouTube",
+    link: "https://www.youtube.com/channel/UC4HOuA2c08DZU12SIRGPgvg",
+    icon: "youtube.png",
   },
   {
     name: "E-mail",

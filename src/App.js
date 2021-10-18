@@ -8,18 +8,17 @@ function App() {
       
       <div className="intro">
         <img
-          src="./assets/avatar.jpg"
+          src="./assets/avatar.gif"
           alt=""
           className="intro_avatar"
         />
         <div className="intro_name">
-          Hi there, visitor!
+         Hi there, visitor!
         </div>
         <div className="intro_description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-          vitae dolor recusandae laboriosam aliquam, magni, non fuga cupiditate
-          totam voluptatibus consequatur! Dolor quisquam dolorem, ipsa ex
-          assumenda deleniti maiores beatae?
+         @gdscrtu <br />
+         "Join us in our mission of empowering the technical community"
+
         </div>
       </div>
 

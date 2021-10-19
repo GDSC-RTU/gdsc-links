@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@300&display=swap');
+
 body {
   min-height: 100vh;
   display: flex;
@@ -24,20 +24,18 @@ body {
   height: 150px;
   width: 150px;
   object-position: 0 -19px;
-
-  
 }
 
 .intro_name {
   font-size: 2.3rem;
-  font-weight: 300;
+  font-weight: 800;
   margin-bottom: 10px;
   text-align: center;
   position: relative;
   bottom: 20px;
   left: 7px;
-  letter-spacing: 2.5px;
-  font-family: 'Andada Pro', serif;
+  letter-spacing: 1.2px;
+  font-family: 'Poppins', serif;
 }
 
 .intro_description {
@@ -49,18 +47,16 @@ body {
   bottom: 20px;
   left: 5px;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   padding-bottom: 40px;
-
 }
 
-.links{
+.links {
   position: relative;
   bottom: 60px;
 }
 
-@media(max-width: 992px){
+@media(max-width: 992px) {
   .intro_name {
     font-size: 1.5rem;
     letter-spacing: 2px;
@@ -72,13 +68,14 @@ body {
     line-height: 20px;
     font-weight: 500;
   }
-
-  .intro_avatar{
+  
+  .intro_avatar {
     height: 100px;
     width: 100px;
   }
-
-  body{
+  
+  body {
     padding: 50px 6px;
   }
+
 }

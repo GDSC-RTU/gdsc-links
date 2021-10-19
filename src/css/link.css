@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
-
 .link {
   padding: 6px 14px;
   border-radius: 10px;
@@ -15,7 +14,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.link_name{
+.link_name {
   font-weight: 600;
 }
 
@@ -24,46 +23,45 @@
   object-fit: cover;
 }
 
-.link:first-child{
+.link:first-child {
   background: linear-gradient(145deg, rgb(241 34 89 / 48%), rgb(209 35 75 / 68%));
 }
 
-.link:nth-child(2){
+.link:nth-child(2) {
   background: linear-gradient(145deg, rgb(40, 189, 105), rgb(33, 159, 88));
 }
 
-.link:nth-child(3){
+.link:nth-child(3) {
   background: linear-gradient(145deg, rgb(225, 59, 142), rgb(189, 50, 120));
 }
 
-.link:nth-child(5){
+.link:nth-child(5) {
   background: linear-gradient(145deg, rgb(28, 86, 147), rgb(23, 72, 123));
 }
 
-.link:nth-child(4){
+.link:nth-child(4) {
   background: linear-gradient(145deg, rgb(59, 139, 225), rgb(50, 117, 189));
 }
 
-.link:nth-child(7){
+.link:nth-child(7) {
   background: linear-gradient(145deg, rgb(159 39 205 / 83%), #700970e6);
 }
 
-.link:nth-child(6){
+.link:nth-child(6) {
   background: linear-gradient(145deg, #8a76e1, #7563cf);
 }
 
-.link:nth-child(8){
+.link:nth-child(8) {
   background: linear-gradient(145deg, rgb(203 56 95), rgb(213 26 69));
 }
 
-@media(max-width: 992px){
-  .link{
+@media(max-width: 992px) {
+  .link {
     font-size: 15px;
     height: 29px;
     margin-bottom: 1.2rem;
   }
-
-  .link_name{
+  .link_name {
     font-weight: 500;
   }
 }

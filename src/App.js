@@ -5,7 +5,7 @@ import "./css/app.css";
 function App() {
   return (
     <div className="container">
-      
+
       <div className="intro">
         <img
           src="./assets/avatar.gif"
@@ -13,11 +13,11 @@ function App() {
           className="intro_avatar"
         />
         <div className="intro_name">
-         Hi there, visitor!
+          Hi there, visitor!
         </div>
         <div className="intro_description">
-         @gdscrtu <br />
-         "Join us in our mission of empowering the technical community"
+          @gdscrtu <br />
+          Join us in our mission of empowering the technical community
 
         </div>
       </div>
@@ -34,7 +34,7 @@ function App() {
           );
         })}
       </div>
-    
+
     </div>
   );
 }

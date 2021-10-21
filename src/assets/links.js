@@ -1,5 +1,10 @@
 const links = [
   {
+    name: "Profile Building Session",
+    link: "https://gdsc.community.dev/events/details/developer-student-clubs-rajasthan-technical-university-kota-presents-profile-building-session/",
+    icon: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_150,q_auto:good,w_150/v1/gcs/platform-data-dsc/events/IMG-20211020-WA0069_NzqhkKj.jpg",
+  },
+  {
     name: "Become a Member",
     link: "https://gdsc.community.dev/rajasthan-technical-university-kota/",
     icon: "web.png",

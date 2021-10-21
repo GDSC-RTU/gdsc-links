@@ -23,6 +23,10 @@
   object-fit: cover;
 }
 
+.link{
+  background: linear-gradient(145deg, rgb(225, 59, 142), rgb(189, 50, 120));
+}
+
 .link:first-child {
   background: linear-gradient(145deg, rgb(241 34 89 / 48%), rgb(209 35 75 / 68%));
 }
